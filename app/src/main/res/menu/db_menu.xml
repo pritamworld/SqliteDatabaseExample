@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuAdd"
+        android:title="Add"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_add"/>
+    <item
+        android:id="@+id/mnuUpdate"
+        android:title="Update"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_edit"/>
+    <item
+        android:id="@+id/mnuDelete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_delete"/>
+    <item
+        android:id="@+id/mnuList"
+        android:title="List"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_list"/>
+
+    <item android:id="@+id/mnuSearch"
+          android:title="Search"
+          android:icon="@android:drawable/ic_menu_search"
+          app:showAsAction="always"
+          app:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>

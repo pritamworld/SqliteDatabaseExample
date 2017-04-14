@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.moxdroid.sqlitedatabaseexample.MainActivity">
+
+    <EditText
+        android:id="@+id/edtSno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="23dp"
+        android:enabled="false"
+        android:ems="10"
+        android:hint="Student ID"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtSnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtSno"
+        android:layout_alignStart="@+id/edtSno"
+        android:layout_below="@+id/edtSno"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Enter Student Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/edtMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtSnm"
+        android:layout_alignStart="@+id/edtSnm"
+        android:layout_below="@+id/edtSnm"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Enter Total Marks"
+        android:inputType="number"/>
+</RelativeLayout>
